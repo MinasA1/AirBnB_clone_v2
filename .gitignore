@@ -1,0 +1,5 @@
+*.pyc
+output.test*
+*.swp
+*.json
+*~
