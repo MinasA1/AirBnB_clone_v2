@@ -160,6 +160,13 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
+Version 2
+
+Minas Anton - [Github](https://github.com/MinasA1) - [Twitter](https://twitter.com/minas_anton)
+Larry Madeo - [Github](https://github.com/Hillmonkey) - [Twitter](https://twitter.com/larmalade)
+
+Version 1
+
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 
