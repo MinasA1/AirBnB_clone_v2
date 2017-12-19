@@ -21,9 +21,9 @@ def c_text(text):
     """docs"""
     return ("C {}".format(text.replace("_", " ")))
 
-
+@app.route('/python/', defaults={'text': 'is cool'})
 @app.route('/python/<text>', strict_slashes=False)
-def python_text(text="is cool"):
+def python_text(text):
     """docs"""
     return ("Python {}".format(text.replace("_", " ")))
 
@@ -49,4 +49,4 @@ def number_odd_even(n):
         msg = "{} is even".format(n)
     return render_template('6-number_odd_or_even.html', msg=msg)
 
-app.run(host='0.0.0.0')
+app.run(host='0.0.0.0', port=5000)
